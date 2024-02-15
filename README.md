@@ -15,7 +15,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-made-with-react-and-scss-FBuP_NMOoI)
 - Live Site URL: [GitHub](https://r3ygoski.github.io/recipe-page-main-react/)
 
 ## My process
