@@ -1,0 +1,14 @@
+@use '../../sass/var.scss';
+
+.ingredients {
+    margin-bottom: 1.5rem;
+    &__list {
+        margin: 1rem;
+        &-item {
+            margin: .5rem 0;
+            &::marker {
+                color: var.$nutmeg;
+            }
+        }
+    }
+}

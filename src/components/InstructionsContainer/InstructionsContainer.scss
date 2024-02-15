@@ -1,0 +1,17 @@
+@use '../../sass/var.scss';
+
+.instructions {
+    margin: 1.5rem 0;
+    &__list {
+        margin: 1rem 0 0 1rem;
+        &-item {
+            p {
+                margin: 1rem 0 0 1rem;
+            }
+            &::marker {
+                color: var.$nutmeg;
+                font-weight: bold;
+            }
+        }
+    }
+}

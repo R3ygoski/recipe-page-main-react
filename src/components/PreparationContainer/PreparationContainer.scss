@@ -1,0 +1,21 @@
+@use '../../sass/var.scss';
+
+.preparation {
+    margin: 1.75rem 0;
+    background: var.$rose-white;
+    padding: 1rem;
+    border-radius: 1rem;
+    &__title {
+        color: var.$dark_raspberry;
+        font-weight: 700;
+    }
+    &__list {
+        margin-left: 1rem;
+        &-item {
+            margin: .5rem 0;
+            &::marker {
+                color: var.$dark_raspberry;
+            }
+        }
+    }
+}

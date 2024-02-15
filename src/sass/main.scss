@@ -1,0 +1,103 @@
+@use './var';
+@use '../components/PreparationContainer/PreparationContainer.scss';
+@use '../components/InstructionsContainer/InstructionsContainer.scss';
+@use '../components/IngredientsContainer/IngredientsContainer.scss';
+
+.recipe {
+    background: var.$white;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-width: 320px;
+    width: 52%;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.333);
+    &__image {
+        width: 100%;
+        border-radius: 1rem;
+    }
+    &__title {
+        margin: 1.5rem 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .recipe {
+        padding: 1rem;
+        border-radius: 0;
+        width: 100%;
+        &__image {
+            border-radius: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &__title {
+            margin-top: 10rem;
+        }
+    }
+}
+@media (min-width: 376px) and (max-width: 425px)   {
+    .recipe {
+        &__title {
+            margin-top: 12.5rem;
+        }
+    }
+}
+
+.title {
+    color: var.$dark-charcoal;
+}
+.title, .title-font {
+    font-family: var.$font-young-serif;
+}
+.title-font {
+    color: var.$nutmeg;
+}
+.span__bold {
+    font-weight: 600;
+}
+.span_margin {
+    margin-left: 1rem;
+}
+.divisory-line {
+    height: 1px;
+    width: 100%;
+    border: 1px solid var.$light-grey;
+}
+.divisory-line-table {
+    border: 1px solid var.$light-grey;
+    width: 160%;
+    &-first, &-second, &-third {
+        position: absolute;
+        width: 95%;
+        height: 1px;
+        z-index: 3;
+        background: var.$light-grey;
+    }
+    &-first {
+        top: 50%;
+    }
+    &-second {
+        top: 65%;
+    }
+    &-third {
+        top: 82%;
+    }
+    @media (min-width: 1440px){
+        &-first {
+            top: 47%;
+        }
+        &-second {
+            top: 65%;
+        }
+        &-third {
+            top: 82%;
+        }
+    }
+}
+.nutrient__name {
+    margin-left: 2rem;
+}
+.nutrient__value {
+    color: var.$nutmeg;
+    font-weight: bold;
+}

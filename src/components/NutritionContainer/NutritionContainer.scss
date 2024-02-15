@@ -1,0 +1,19 @@
+@use '../../sass/var.scss';
+
+.nutrition {
+    position: relative;
+    margin-top: 1.5rem;
+    &__description {
+        margin: 1rem 0;
+    }
+    &__table {
+        width: 100%;
+        &-body {
+            height: 24px;
+            &-rows {
+                height: 3rem;
+
+            }
+        }
+    }
+}
