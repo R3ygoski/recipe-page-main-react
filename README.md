@@ -16,7 +16,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub](https://your-live-site-url.com)
+- Live Site URL: [GitHub](https://r3ygoski.github.io/recipe-page-main-react/)
 
 ## My process
 
