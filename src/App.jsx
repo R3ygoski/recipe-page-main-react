@@ -2,13 +2,14 @@ import IngredientsContainer from './components/IngredientsContainer'
 import InstructionsContainer from './components/InstructionsContainer'
 import NutritionContainer from './components/NutritionContainer'
 import PreparationContainer from './components/PreparationContainer'
+import omelleteImage from './image/image-omelette.jpeg'
 import './sass/main.scss'
 
 function App() {
 
   return (
     <main className="recipe">
-      <img className="recipe__image" src="./image/image-omelette.jpeg" alt="Image of a Omelette"/>
+      <img className="recipe__image" src={omelleteImage} alt="Image of an Omelette"/>
       <h1 className="recipe__title title">Simple Omelette Recipe</h1>
       <p className="recipe__description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
       <PreparationContainer classStyle="preparation"/>
